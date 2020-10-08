@@ -12,10 +12,20 @@
 .about {
     text-align: center;
     height: 250px;
-    background-color: yellow;
+    background-color: white;
     padding-top: 30px;
 }
 
 h2 {
     font-weight: bolder;
+}
+
+.services {
+    text-align: center;
+    background-image: url("/images/s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 90px;
+    height: 250px;
 }
