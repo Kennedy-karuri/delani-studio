@@ -8,3 +8,14 @@
     padding-top: 150px;
 
 }
+
+.about {
+    text-align: center;
+    height: 250px;
+    background-color: yellow;
+    padding-top: 30px;
+}
+
+h2 {
+    font-weight: bolder;
+}
