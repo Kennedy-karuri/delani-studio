@@ -35,4 +35,18 @@ h2 {
 
 }
 
-.cards {}
+.portfolio img {
+    width: 250px;
+}
+
+.contacts {
+    text-align: center;
+    background-image: url(/images/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 30px;
+    color: white;
+
+
+}
