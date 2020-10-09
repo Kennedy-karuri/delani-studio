@@ -59,3 +59,8 @@ h2 {
 #ken::placeholder {
     color: white;
 }
+
+.footer{
+    text-align: center;
+    padding: 50px;
+}
