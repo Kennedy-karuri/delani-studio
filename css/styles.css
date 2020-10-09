@@ -53,4 +53,9 @@ h2 {
 
 #ken {
     background: none;
+    color: white;
+}
+
+#ken::placeholder {
+    color:white;
 }
