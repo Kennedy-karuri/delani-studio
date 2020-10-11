@@ -92,14 +92,21 @@ $(document).ready(function () {
          })
          });
 
-         function myFunction(){
-             var name=document.getElementById("ken").value;
-             var email=document.getElementById("mce-EMAIL").value;
-
-             if((name)&&(email)){
-                 alert(name + ",we have received your message. Thank you for reaching out to us.");
-
-             }else{alert("enter valid information")};
-         }
-
-    
+        
+        $("button").click(function () {
+            var name = document.getElementById("ken1").value;
+            var email = document.getElementById("mce-EMAIL").value;
+            var message = document.getElementById("ken2").value;
+            if (name === "") {
+              alert("Please Insert your name")
+            } else
+                 if(email === ""){
+                alert("Enter your Email")
+            }else
+               if(message === "") {
+              alert("Please insert your message!")
+            }else {
+               alert(' Dear ' + name + ' we have received your message successfully. ' + ' Feel free to reach out to us at anytime');
+            }
+          });
+            

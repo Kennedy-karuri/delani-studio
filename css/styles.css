@@ -56,7 +56,7 @@ h2 {
     color: white;
 }
 
-#ken::placeholder {
+#ken1,#ken2,::placeholder {
     color: white;
 }
 
@@ -112,4 +112,3 @@ h2 {
   
 }
 
-    
