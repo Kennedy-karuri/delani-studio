@@ -60,6 +60,14 @@ h2 {
     color: white;
 }
 
+#ken1{
+    background: none;
+    color: white;
+}
+
+#ken1::placeholder {
+    color: white;
+}
 .footer{
     text-align: center;
     padding: 50px;

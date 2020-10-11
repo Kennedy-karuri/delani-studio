@@ -90,14 +90,16 @@ $(document).ready(function () {
          .mouseout(function(){
              $("#giraffe2").hide();
          })
-         
-    
-    
-    
-    
-    
-    
-    
-    });
+         });
+
+         function myFunction(){
+             var name=document.getElementById("ken").value;
+             var email=document.getElementById("ken1").value;
+
+             if((name)&&(email)){
+                 alert(name + ",we have received your message. Thank you for reaching out to us.");
+
+             }else{alert("enter valid information")};
+         }
 
     
