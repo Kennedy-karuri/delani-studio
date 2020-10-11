@@ -33,3 +33,57 @@ $(document).ready(function () {
     });
 
 });
+
+$(document).ready(function () {
+    $("#jim1").mouseover(function () {
+            $("#jim2").show();
+        })
+        .mouseout(function () {
+            $("#jim2").hide();
+        });
+
+        $("#yellow1").mouseover(function(){
+            $("#yellow2").show();
+        })
+        .mouseout(function(){
+            $("#yellow2").hide()
+        });
+
+        $("#mighty1").mouseover(function(){
+            $("#mighty2").show();
+        })
+        .mouseout(function(){
+            $("#mighty2").hide()
+        });
+
+        $("#dark1").mouseover(function(){
+            $("#dark2").show();
+        })
+        .mouseout(function(){
+            $("#dark2").hide();
+        })
+
+        $("#have1").mouseover(function(){
+            $("#have2").show();
+        })
+        .mouseout(function(){
+            $("#have2").hide();
+        })
+
+        $("#selector1").mouseover(function(){
+            $("#selector2").show();
+        })
+         .mouseout(function(){
+             $("#selector2").hide();
+         })
+
+    
+    
+    
+    
+    
+    
+    
+    });
+
+    
