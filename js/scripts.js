@@ -77,6 +77,20 @@ $(document).ready(function () {
              $("#selector2").hide();
          })
 
+         $("#burned1").mouseover(function(){
+             $("#burned2").show();
+         })
+         .mouseout(function(){
+             $("#burned2").hide();
+         })
+
+         $("#giraffe1").mouseover(function(){
+             $("#giraffe2").show();
+         })
+         .mouseout(function(){
+             $("#giraffe2").hide();
+         })
+         
     
     
     
