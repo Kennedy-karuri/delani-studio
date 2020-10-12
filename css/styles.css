@@ -3,7 +3,7 @@
 }
 .firstpage {
     text-align: center;
-    background-image: url("/images/h_img.jpg");
+    background-image: url("../images/h_img.jpg");
     background-repeat: no-repeat;
     color: white;
     background-size: cover;
@@ -25,7 +25,7 @@ h2 {
 
 .services {
     text-align: center;
-    background-image: url("/images/s_image.jpg");
+    background-image: url("../images/s_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -47,7 +47,7 @@ h2 {
 
 .contacts {
     text-align: center;
-    background-image: url(/images/c_image.jpg);
+    background-image: url("../images/c_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
