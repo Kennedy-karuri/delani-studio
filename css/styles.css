@@ -51,16 +51,17 @@ h2 {
 
 }
 
-#ken {
+#ken1 {
     background: none;
     color: white;
 }
 
-#ken1,#ken2,::placeholder {
+#ken3,::placeholder {
+    background: none;
     color: white;
 }
 
-#mce-EMAIL{
+#ken2{
     background: none;
     color: white;
 }
